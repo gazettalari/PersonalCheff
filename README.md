@@ -42,7 +42,14 @@ ir em settings e mudar o timezone
 * preciso estar dentro da pasta (PersonalCheff2) criar um app receitas
 python manage.py startapp receitas
 ```
-- [ ] Registrar o app receitas
+- [X] Registrar o app receitas
+```
+no arquivo settings.py adicionar o app receitas na lista de apps
+INSTALED_APPS[
+    ...
+    'receitas',
+]
+```
 - [ ] Configurar a rota inicial(index)
 - [ ] Criar a view para a rota inicial
 - [ ] Registrar a rota inicial
