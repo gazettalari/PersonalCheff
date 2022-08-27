@@ -37,7 +37,11 @@ abrir o arquivo `settings.py` e na linha 106 para trocar `en-us` para `pt-br`
 ```
 ir em settings e mudar o timezone
 ```
-- [ ] Criar o app receitas
+- [X] Criar o app receitas
+```
+criar um app receitas
+python manage.py startapp receitas
+```
 - [ ] Registrar o app receitas
 - [ ] Configurar a rota inicial(index)
 - [ ] Criar a view para a rota inicial
