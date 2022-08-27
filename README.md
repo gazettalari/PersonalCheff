@@ -39,7 +39,7 @@ ir em settings e mudar o timezone
 ```
 - [X] Criar o app receitas
 ```
-criar um app receitas
+* preciso estar dentro da pasta (PersonalCheff2) criar um app receitas
 python manage.py startapp receitas
 ```
 - [ ] Registrar o app receitas
