@@ -29,7 +29,10 @@ cd PersonalCheff2
 executar o projeto no servidor
 python manage.py runserver
 ```
-- [ ] Alterar o idioma do projeto para `pt-br`
+- [X] Alterar o idioma do projeto para `pt-br`
+```
+abrir o arquivo `settings.py` e na linha 106 para trocar `en-us` para `pt-br`
+```
 - [ ] Alterar o timezone do projeto para `America/Sao_Paulo`
 - [ ] Criar o app receitas
 - [ ] Registrar o app receitas
