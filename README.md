@@ -21,7 +21,14 @@ venv\Scripts\activate
 ```
 django-admin.py startproject PersonalCheff2
 ```
-- [ ] Subir o servidor e testar o projeto
+- [X] Subir o servidor e testar o projeto
+```
+entrar na pasta do projeto
+cd PersonalCheff2
+
+executar o projeto no servidor
+python manage.py runserver
+```
 - [ ] Alterar o idioma do projeto para `pt-br`
 - [ ] Alterar o timezone do projeto para `America/Sao_Paulo`
 - [ ] Criar o app receitas
