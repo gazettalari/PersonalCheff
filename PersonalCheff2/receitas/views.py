@@ -1,6 +1,14 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 
 def index(request):
-        return HttpResponse("Seja bem vindo")
-        
+    return render(request,'index.html')
+
+def sucodelaranja(request):
+        return  render(request,'sucodelaranja.html') 
+
+def sucodelimao(request):
+        return render(request,'sucodelimao.html')
+
+ 
+def bolodecenoura(request):
+        return render(request,'bolodecenoura.html')       
