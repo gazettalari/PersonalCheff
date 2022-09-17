@@ -81,7 +81,28 @@ INSTALED_APPS[
      ```python
         <a href="{% url 'index' %}">Página inicial</a>
      ```
-
+  - [X] Criando o base.html
+    - na pasta **templates** crie o arquivo **base.html**. Esse arquivo contém todo o código de estrutura comum à todas as paginas. Nesse arquivo deve ficar tudo que tiver antes do **body** e tudo que tiver depois do **/body**.
+- [] Separando em partials
+    -
+- [] Renderizando dados dinamicamente
+    -
+- [] Criando um dicionario com as receitas
+    -
+- [] Criando o banco de dados(MySQL/MariaDB)
+    -
+- [] Instalando o conector do bando de dados MySQL
+    -
+- [] Criando o modelo da receita
+    - 
+- [] Criando a migration (mapeamento)
+    -
+- [] Realizando a migration
+    -
+- [] Registrando um modelo no admin
+    -
+- [] Criando um usuário para o ambiente administrativo
+    -
 
 
 
