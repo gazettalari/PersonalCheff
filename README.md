@@ -54,7 +54,7 @@ INSTALED_APPS[
 - [X] Criar a view para a rota inicial
 - [X] Registrar a rota inicial
 - [X]Criar arquivo index.html
-- []Integrar arquivos estáticos (CSS, JS)
+- [X] Integrar arquivos estáticos (CSS, JS)
     - Dentro da pasta do projeto (PersonalCheff2), criar a pasta **static**
     - Dentro da pasta **static**, colocar as imagens, os arquivos css e os arquivos js que for utilizar
     - No arquivo **settings.py**:
@@ -76,6 +76,12 @@ INSTALED_APPS[
         - após realizar essas configurações execute, no terminal, o comando **python manage.py collectstatic**
         - na primeira linha do arquivo **index.html** insira **{% load static %}**. Esse comando deve ser usado em todos os arquivos em que você for utilizar arquivos estáticos.
         - insira uma imagem utilizando o comando **<img src="{% static 'logo.png'  %}">**. Sempre que for utilizar um arquivo estático você deve utilizar **{% static 'nome-do-arquivo' %}**
+    - [X] Utilizando links
+      - para criar um link para a página index, independente de onde você esteja utilize o comando **url**:
+     ```python
+        <a href="{% url 'index' %}">Página inicial</a>
+     ```
+
 
 
 
