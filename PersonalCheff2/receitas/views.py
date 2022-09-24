@@ -12,3 +12,6 @@ def sucodelimao(request):
  
 def bolodecenoura(request):
         return render(request,'bolodecenoura.html')       
+
+def contato(request):
+        return render(request,'contato.html')
