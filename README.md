@@ -163,7 +163,7 @@ INSTALED_APPS[
 
 - [] Criando o banco de dados(MySQL/MariaDB)
     -
-- [] Instalando o conector do bando de dados MySQL
+- [] Instalando o conector do banco de dados MySQL
     -
 - [] Criando o modelo da receita
     - 
