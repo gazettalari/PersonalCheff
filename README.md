@@ -161,9 +161,14 @@ INSTALED_APPS[
     {% endfor %} 
     ```
 
-- [] Criando o banco de dados(MySQL/MariaDB)
-    -
-- [] Instalando o conector do banco de dados MySQL
+- [X] Criando o banco de dados(MySQL/MariaDB)
+    - Abra o XAMPP e start os serviços Apache e MySQL
+    - Click no botão admin do Apache
+    - Acesse o link PHPMyAdmin
+    - Dentro do PHPMyAdmin, click no botão **novo** para criar um banco de dados, insira o nome **personalcheff_bd**
+- [X] Instalando o conector do banco de dados MySQL
+    - **pip install mysqlclient**
+- [] Configurar a conexão com mysql
     -
 - [] Criando o modelo da receita
     - 
