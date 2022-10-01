@@ -200,9 +200,11 @@ INSTALED_APPS[
 - [X] Criando a migration (mapeamento)
     - preparar todas as models criadas para serem migradas para o banco de dados
     - no terminal digite **python manage.py makemigrations**
-    
-- [] Realizando a migration
-    -
+
+- [X] Realizando a migration
+    - Realizar a migração é criar fisicamente no banco de dados as tabelas preparadas anteriormente e no nosso caso, as tabelas preparadas pelo django para o seu ambiente administrativo
+    - No terminal digite **python manage.py migrate**
+
 - [] Registrando um modelo no admin
     -
 - [] Criando um usuário para o ambiente administrativo
