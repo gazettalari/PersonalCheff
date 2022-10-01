@@ -211,8 +211,17 @@ INSTALED_APPS[
     **python manage.py createsuperuser**
     - **OBS**: Quando digitar a senha, ela vai ficar em branco.
 
-- [] Registrando um modelo no admin
-    -
+- [X] Registrando um modelo no admin
+    - Para criar o módulo referente ao nosso APP no ambiente administrativo, precisamos registrar nossos modelos no admin.
+    - Abra o arquivo **receitas\admin.py** e registre seu modelo:
+        ```python
+            from django.contrib import admin
+        from .models import Receitas
+
+        # Register your models here.
+        admin.site.register(Receitas)
+        ```
+        
 
 
 
