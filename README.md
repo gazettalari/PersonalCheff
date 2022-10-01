@@ -221,7 +221,10 @@ INSTALED_APPS[
         # Register your models here.
         admin.site.register(Receitas)
         ```
-        
+- [] Trazendo os dados do banco de dados
+    -
+- [] Exibição das páginas individuais das receitas
+    -           
 
 
 
