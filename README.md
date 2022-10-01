@@ -205,10 +205,15 @@ INSTALED_APPS[
     - Realizar a migração é criar fisicamente no banco de dados as tabelas preparadas anteriormente e no nosso caso, as tabelas preparadas pelo django para o seu ambiente administrativo
     - No terminal digite **python manage.py migrate**
 
+- [X] Criando um usuário para o ambiente administrativo
+    -  O DJANGO já cria um ambiente administrativo para nossa aplicação, ficando esse ambiente em: **http://127.0.0.1:8000/admin/** 
+    - Para utilizar o ambiente administrativo precisamos criar um usuário de acesso. No terminar digite:
+    **python manage.py createsuperuser**
+    - **OBS**: Quando digitar a senha, ela vai ficar em branco.
+
 - [] Registrando um modelo no admin
     -
-- [] Criando um usuário para o ambiente administrativo
-    -
+
 
 
 
