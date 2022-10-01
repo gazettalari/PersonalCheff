@@ -197,8 +197,10 @@ INSTALED_APPS[
             data_receita = models.DateTimeField(default=datetime.now, blank=True)
     ```
 
-- [] Criando a migration (mapeamento)
-    -
+- [X] Criando a migration (mapeamento)
+    - preparar todas as models criadas para serem migradas para o banco de dados
+    - no terminal digite **python manage.py makemigrations**
+    
 - [] Realizando a migration
     -
 - [] Registrando um modelo no admin
