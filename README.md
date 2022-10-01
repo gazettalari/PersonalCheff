@@ -169,7 +169,7 @@ INSTALED_APPS[
 - [X] Instalando o conector do banco de dados MySQL
     - **pip install mysqlclient**
 - [X] Configurar a conexão com mysql
-    -- No arquivo **settings.py** , na linha ~78 configurar a conexão para o seu banco de dados como no exemplo:
+    - No arquivo **settings.py** , na linha ~78 configurar a conexão para o seu banco de dados como no exemplo:
     ```python
         'default': {
             'ENGINE': 'django.db.backends.mysql',
@@ -180,7 +180,7 @@ INSTALED_APPS[
             'PORT': '3306',
     }
     ```
-    
+
 - [] Criando o modelo da receita
 
 - [] Criando a migration (mapeamento)
