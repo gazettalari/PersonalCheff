@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+{% include 'partials/header.html' %}
+    <h2>{{uma_receita.nome_receita}}</h2>
+    <h6>{{uma_receita.data_receita}}, Nota: {{uma_receita.nota}}</h6>
+    <h4>Ingredientes</h4>
+    <p>{{uma_receita.ingredientes|linebreaks}}</p>
+    <h4>Modo de preparo</h4>
+    <p>{{uma_receita.modo_preparo|linebreaks}}</p>
+    <h3>Vídeo</h3>
+    <a href="{{uma_receita.video}}" target="_blank">Clique aqui para acessar o vídeo</a>
+    <p>
+        <a href="{% url 'index' %}">Voltar</a>
+    </p>
+{% include 'partials/footer.html' %}    
+{% endblock %}
